@@ -1,0 +1,24 @@
+{"object":"page","entry":[{"id":"535599219786047","time":1603026665038,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603026664652,"message":{"mid":"m_XJki_Kucc9Vq0eHnAasIXZDcbXTOZ0ZnkjIHXbyD83_ik5szRBzp5eSrDMC87-XPHQzwsKt-dA1639qVZx66eA","text":"hehe","nlp":{"intents":[],"entities":[],"traits":[],"detected_locales":[]}}}]}]}
+18/10/2020 13:11:08 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603042400134,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603042399633,"message":{"mid":"m_ahRW__u9tqMVah_AulOc6JDcbXTOZ0ZnkjIHXbyD838Hzd91_4UQY28l3doHsgQPpYwKk8o-zrmLVlg82ZOIBA","text":"....","nlp":{"intents":[],"entities":[],"traits":[],"detected_locales":[]}}}]}]}
+18/10/2020 17:33:24 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603044057770,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603044057376,"message":{"mid":"m_B3-LNh17iPNUy6AvDnja5pDcbXTOZ0ZnkjIHXbyD838ZJ5xUkJtMRUeMND22QLFCFxtP9HSZfYp9oV-qn5ompg","text":"Be de","nlp":{"intents":[],"entities":[],"traits":[],"detected_locales":[{"locale":"en_XX","confidence":0.4013}]}}}]}]}
+18/10/2020 18:01:03 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603044094989,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603044094763,"message":{"mid":"m_E8YRGRjjlTESdvLEbfy-HpDcbXTOZ0ZnkjIHXbyD83_SD46RsJ17CJXqUJoEFpa9MSFlsGQCW_RKqW413m53ig","text":"Chao ban","nlp":{"intents":[],"entities":[],"traits":[],"detected_locales":[{"locale":"vi_VN","confidence":0.9995}]}}}]}]}
+18/10/2020 18:01:40 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603044145405,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603044144945,"message":{"mid":"m_dcRF5fPwBQjJQrO2vqLJj5DcbXTOZ0ZnkjIHXbyD839Uer1VDuVaP6DugdIlpdNKkI7WNi42pL9Yg2UrutU99w","text":"chao","nlp":{"intents":[],"entities":[],"traits":[],"detected_locales":[{"locale":"vi_VN","confidence":0.9816}]}}}]}]}
+18/10/2020 18:02:31 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603045304692,"messaging":[{"sender":{"id":"535599219786047"},"recipient":{"id":"3786691598031306"},"timestamp":1603045304567,"message":{"mid":"m_zldykrdElSse7P14JTVSEpDcbXTOZ0ZnkjIHXbyD83_Gr4LbIgClTjduLoxHvv-MjWrxl7PKUdrJmGbf3cyOww","is_echo":true,"text":"ah the a"}}]}]}
+18/10/2020 18:21:50 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603045331710,"messaging":[{"sender":{"id":"535599219786047"},"recipient":{"id":"3786691598031306"},"timestamp":1603045331664,"message":{"mid":"m_5tlyeSsLJPJlJgSRNqJ8XZDcbXTOZ0ZnkjIHXbyD8399rw2rhy-IvV1VRWtyV__AU40xKy0tF7Bv7ErnYmdZeA","is_echo":true,"text":"Thi lamf sao"}}]}]}
+18/10/2020 18:22:15 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603045517217,"messaging":[{"sender":{"id":"535599219786047"},"recipient":{"id":"3786691598031306"},"timestamp":1603045517178,"message":{"mid":"m_aNXm65jk82hL3_UOoPfeSZDcbXTOZ0ZnkjIHXbyD8388U8sVZesiBYGA0_K-fxFB9aaCR8rNBW0YUWb6zAWabA","is_echo":true,"text":"Tin nhan tu FB ban ve ne"}}]}]}
+18/10/2020 18:25:21 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603045561729,"messaging":[{"sender":{"id":"535599219786047"},"recipient":{"id":"3786691598031306"},"timestamp":1603045561605,"message":{"mid":"m_Iga1JrDyuIOLnNeQR-pvo5DcbXTOZ0ZnkjIHXbyD839waQEEgZlqY9cbB597V-uhE_l9TV1iX39PfSt8yghoGQ","is_echo":true,"text":"Ok webhook ngon roi"}}]}]}
+18/10/2020 18:26:06 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603045887047,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603045887099,"delivery":{"mids":["m_zldykrdElSse7P14JTVSEpDcbXTOZ0ZnkjIHXbyD83_Gr4LbIgClTjduLoxHvv-MjWrxl7PKUdrJmGbf3cyOww","m_5tlyeSsLJPJlJgSRNqJ8XZDcbXTOZ0ZnkjIHXbyD8399rw2rhy-IvV1VRWtyV__AU40xKy0tF7Bv7ErnYmdZeA","m_aNXm65jk82hL3_UOoPfeSZDcbXTOZ0ZnkjIHXbyD8388U8sVZesiBYGA0_K-fxFB9aaCR8rNBW0YUWb6zAWabA","m_Iga1JrDyuIOLnNeQR-pvo5DcbXTOZ0ZnkjIHXbyD839waQEEgZlqY9cbB597V-uhE_l9TV1iX39PfSt8yghoGQ"],"watermark":1603045561605}}]}]}
+18/10/2020 18:31:31 Luu vao Kaka thanh cong
+{"object":"page","entry":[{"id":"535599219786047","time":1603047530920,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603047531062,"read":{"watermark":1603045561605}}]}]}
+{"object":"page","entry":[{"id":"535599219786047","time":1603047531526,"messaging":[{"sender":{"id":"3786691598031306"},"recipient":{"id":"535599219786047"},"timestamp":1603047531554,"read":{"watermark":1603045561605}}]}]}
+18/10/2020 18:58:56 Luu vao Kaka thanh cong
+18/10/2020 18:58:56 Luu vao Kaka thanh cong
