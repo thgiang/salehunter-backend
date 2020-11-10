@@ -21,10 +21,8 @@ Route::get('webhook', 'FacebookController@webhook');
 Route::post('webhook', 'FacebookController@webhook');
 
 Route::group([
-
     'middleware' => 'api',
     'prefix' => 'auth'
-
 ], function ($router) {
 
     Route::post('login', 'AuthController@login');
@@ -33,3 +31,5 @@ Route::group([
     Route::get('user', 'AuthController@me');
 
 });
+
+Route::get('fb-login-url', 'Api\FacebookController@loginUrl');
