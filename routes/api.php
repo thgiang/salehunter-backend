@@ -31,5 +31,3 @@ Route::group([
     Route::get('user', 'AuthController@me');
 
 });
-
-Route::get('fb-login-url', 'Api\FacebookController@loginUrl');

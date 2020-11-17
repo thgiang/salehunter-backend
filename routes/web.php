@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Redis;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +14,9 @@
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('test', function() {
+    Redis::publish('messages', json_encode(['foo' => 'bar']));
+    Redis::publish('messages_2', json_encode(['foo' => 'bar']));
 });
