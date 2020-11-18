@@ -20,3 +20,7 @@ Route::get('test', function() {
     Redis::publish('messages', json_encode(['foo' => 'bar']));
     Redis::publish('messages_2', json_encode(['foo' => 'bar']));
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -17,8 +17,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('webhook', 'FacebookController@webhook');
-Route::post('webhook', 'FacebookController@webhook');
+Route::get('gKPk9Kgm4laKlm', 'Api\FacebookController@webhook');
+Route::post('gKPk9Kgm4laKlm', 'Api\FacebookController@webhook');
 
 Route::group([
     'middleware' => 'api',

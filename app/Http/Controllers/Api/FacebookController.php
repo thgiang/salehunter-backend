@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Services\ProducerService;
 
@@ -21,20 +22,20 @@ class FacebookController extends Controller
 			  return $challenge;
 
 			} else {
-				return response()->json(['error' => 'Not authorized.'], 403);		
+				return response()->json(['error' => 'Not authorized.'], 403);
 			}
 		}
-	  
+
 		// Receive other webhook
 		$data = $request->all();
-		
+
 		// Bóc tách lấy pid để đẩy vào cùng queue
 		if (!empty($data['entry'][0]['id'])) {
 			$key = $data['entry'][0]['id'];
 		} else {
 			return response([]);
 		}
-		
+
 		file_put_contents('request.txt', json_encode($request->all())."\n", FILE_APPEND);
 		try {
 			ProducerService::getInstance(env('KAFKA_WEBHOOK_BROKER'))->setTopic(env('KAFKA_WEBHOOK_TOPIC'))->send($data, $key);
@@ -45,4 +46,8 @@ class FacebookController extends Controller
 
 		return response([]);
 	}
+
+	public function addTokenToAccount(Request $request) {
+
+    }
 }

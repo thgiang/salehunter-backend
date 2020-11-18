@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 
-class aAuthController extends Controller
+class AuthController extends Controller
 {
     /**
      * Create a new AuthController instance.
