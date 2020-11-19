@@ -20,6 +20,7 @@ class CreatePageAccessTokensTable extends Migration
             $table->bigInteger('user_id');
             $table->string('fb_name', 500);
             $table->string('fb_access_token');
+            $table->text('extra_info');c
             $table->timestamps();
         });
     }

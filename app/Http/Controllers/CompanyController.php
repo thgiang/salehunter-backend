@@ -35,7 +35,8 @@ class CompanyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Company::insert($request->all());
+        exit('Done');
     }
 
     /**

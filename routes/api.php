@@ -21,9 +21,19 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('gKPk9Kgm4laKlm', 'Api\FacebookController@webhook');
 Route::post('gKPk9Kgm4laKlm', 'Api\FacebookController@webhook');
 
+Route::resource('company', 'CompanyController');
+
 Route::group([
+    'middleware' => 'auth:api',
+], function ($router) {
+    Route::get('add-pages', 'Api\PageController@addPages');
+});
+
+Route::group([
+
     'middleware' => 'api',
     'prefix' => 'auth'
+
 ], function ($router) {
 
     Route::post('login', 'AuthController@login');

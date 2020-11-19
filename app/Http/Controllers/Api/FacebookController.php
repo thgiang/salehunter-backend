@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Services\FBService;
 use Illuminate\Http\Request;
 use App\Services\ProducerService;
 
@@ -46,8 +47,4 @@ class FacebookController extends Controller
 
 		return response([]);
 	}
-
-	public function addTokenToAccount(Request $request) {
-
-    }
 }

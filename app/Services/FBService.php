@@ -130,8 +130,8 @@ class FBService
     public function generateLongLivedToken($shortToken)
     {
         $urlRequest = 'oauth/access_token?grant_type=fb_exchange_token&fb_exchange_token=' . $shortToken
-            . '&client_id=' . env('FACEBOOK_CLIENT_ID')
-            . '&client_secret=' . env('FACEBOOK_CLIENT_SECRET');
+            . '&client_id=' . config('fb.app_id')
+            . '&client_secret=' .config('fb.app_secret');
 
         $response = $this->requestFb('get', $urlRequest, $shortToken);
 
